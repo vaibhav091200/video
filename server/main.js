@@ -29,11 +29,9 @@ Meteor.startup(() => {
 }
 */
 Meteor.methods({
-	'videos.update'({video_id,rating,noofratings,irating}){
+	'videos.update'({video_id}){
 		Videos.update(
 			{_id:video_id},
-			{$set: {rating:((irating*noofratings)+rating)/(noofratings+1)}},
-			{$set: { no_of_ratings:noofratings+1}}
 		);
 	}
 });

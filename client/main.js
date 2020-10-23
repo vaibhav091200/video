@@ -289,9 +289,7 @@ Template.suggested_videos.events({
       alert("Login First");
     }
     
-    /*$("#"+video_id).hide('slow',function(){*/
-      
-      
+    /*$("#"+video_id).hide('slow',function(){*/ 
     /*})*/
   },
   'click .js-set-video-filter': function(event){

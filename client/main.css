@@ -1,11 +1,13 @@
 body {
 	  /* padding: 10px; */
-	  margin: 0px;
-  	font-family: sans-serif;
+	  /*margin: 0px;*/
+  	/*font-family: sans-serif;*/
+    background-color: #cdcece;
 }
 
 nav{
-	background-color: #5fcce9;
+	background-color: #20232a;
+    color: #FFFFFF;
 }
 
 video{
@@ -13,6 +15,16 @@ video{
 	max-height: 100%;
 }
 
+.modal-header {
+    background-color: #385059;
+}
+/*.modal-body {
+    background-color: #9c9c9c;
+}*/
+
+/*.modal-footer{
+    background-color: #9c9c9c;
+}*/
 
 .video_thumbnail{
 	/*max-height: 300px;
