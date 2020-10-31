@@ -5,6 +5,7 @@ import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.css';
 import {Meteor} from 'meteor/meteor';
 import './main.html';
+import { Accounts } from 'meteor/accounts-base';
 import {Videos} from '/lib/collection.js';
 
 // var count=0;
