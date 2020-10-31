@@ -23,7 +23,7 @@ Accounts.ui.config({
   passwordSignupFields: "USERNAME_AND_EMAIL",
   sendVerificationEmail: true,
   forbidClientAccountCreation: false
-})
+});
 
 
 //------------------------------------------------------ routing configuration --------------------------------------------------

@@ -1,6 +1,7 @@
 import { FilesCollection } from 'meteor/ostrio:files';
 import { Meteor } from 'meteor/meteor';
 import {Videos} from '/lib/collection.js';
+import { Accounts } from 'meteor/accounts-base';
 
 
 //------------------------------------------------------------ startup code ------------------------------------------------------------
