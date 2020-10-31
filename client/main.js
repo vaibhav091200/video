@@ -20,7 +20,9 @@ if (Meteor.isClient) {
 
 //---------------------------------------------------------------accounts configuration ------------------------------------------------
 Accounts.ui.config({
-  passwordSignupFields: "USERNAME_AND_EMAIL"
+  passwordSignupFields: "USERNAME_AND_EMAIL",
+  sendVerificationEmail: true,
+  forbidClientAccountCreation: false
 })
 
 
